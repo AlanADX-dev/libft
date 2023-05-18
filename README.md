@@ -1,29 +1,29 @@
 # Libft
-Libft est une bibliothèque de fonctions créée dans le cadre du cursus de l'école 42.
-Elle contient une collection de fonctions standard en langage C qui peuvent être utilisées dans différents projets.
+Libft is a library of functions created as part of the School 42 curriculum.
+It contains a collection of standard C language functions that can be used in different projects.
 
-# Contenu
-La bibliothèque Libft est divisée en plusieurs fichiers et dossiers :
+#Content
+The Libft library is divided into several files and folders:
 
-libft.h : Le fichier d'en-tête contenant les prototypes des fonctions et les définitions des structures utilisées dans la bibliothèque.
-libft.a : La bibliothèque statique compilée contenant toutes les fonctions de la libft.
-Makefile : Le fichier de configuration permettant de compiler la bibliothèque et les programmes associés.
+libft.h: The header file containing function prototypes and structure definitions used in the library.
+libft.a: The compiled static library containing all libft functions.
+Makefile: The configuration file used to compile the library and associated programs.
 Compilation
-Pour compiler la bibliothèque Libft, il suffit d'exécuter la commande make à la racine du projet. Cela générera le fichier libft.a.
+To compile the Libft library, just run the make command at the root of the project. This will generate the libft.a file.
 
-Une fois la compilation terminée, vous pouvez utiliser la bibliothèque en l'incluant dans vos projets C et en ajoutant l'option de compilation -L /path/to/libft pour lier la bibliothèque à votre programme.
+Once compiled, you can use the library by including it in your C projects and adding the -L /path/to/libft compiler option to link the library to your program.
 
-# Utilisation
-La bibliothèque Libft fournit une large gamme de fonctions réparties dans différentes catégories :
+# Use
+The Libft library provides a wide range of functions divided into different categories:
 
-Fonctions de manipulation de chaînes de caractères (ft_strlen, ft_strcpy, etc.).
-Fonctions de manipulation de mémoire (ft_memset, ft_memcpy, etc.).
-Fonctions de conversion de types (ft_atoi, ft_itoa, etc.).).
-Et bien d'autres encore...
-Consultez le fichier d'en-tête libft.h pour obtenir la liste complète des fonctions disponibles ainsi que leur description et leur utilisation.
+String manipulation functions (ft_strlen, ft_strcpy, etc.).
+Memory manipulation functions (ft_memset, ft_memcpy, etc.).
+Type conversion functions (ft_atoi, ft_itoa, etc.).
+And many others...
+See the libft.h header file for a full list of available functions along with their description and usage.
 
-# Auteur
-Ce projet a été réalisé par Alan Andrieux, dans le cadre du cursus de l'école 42. N'hésitez pas à me contacter si vous avez des questions ou des suggestions d'amélioration.
+#Author
+This project was carried out by Alan Andrieux, as part of the school 42 curriculum. Do not hesitate to contact me if you have any questions or suggestions for improvement.
 
-# Remerciements
-Je tiens à remercier l'équipe pédagogique de l'école 42 pour nous avoir donné l'opportunité de réaliser ce projet.
+# Thanks
+I would like to thank the pedagogical team of school 42 for giving us the opportunity to carry out this project.
